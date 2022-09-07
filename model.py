@@ -44,7 +44,7 @@ class Net(torch.nn.Module):
         gcnn_out = self.act(gcnn_out)
         gcnn_out = global_mean_pool(gcnn_out, batch)  # [batch_size, hidden_channels
 
-        # Reaarange tensor for cnn layers
+        # Reaarange tensor for CNN layers
         for i in range(len(prt) - 1):
             x_conv[i,0,:, :] = x[prt[i]:prt[i + 1], :]
         cnn_out= self.conv1 (x_conv)

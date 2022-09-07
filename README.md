@@ -24,6 +24,7 @@ We used two public datasets in this study:
 
 ## Modules
 We provide Python implementation for training the proposed model and its evaluation.
+* data_loader: prepare data to input to the model
 * model.py : Proposed model architecture 
 * train.py : Training the model and predicting labels
 * plot_tsne : Graph tsne plots and dendograms

@@ -6,9 +6,8 @@ import numpy as np
 np.random.seed(seed=5827)
 writer = SummaryWriter()
 
-def prediction(test_loader,net):
+def prediction(test_loader,net,device):
     model=net
-    device = 'cuda'
     all_features = torch.tensor([]).to(device)
     all_predictions = torch.tensor([]).to(device)
     all_target = torch.tensor([]).to(device, dtype=torch.long)
@@ -29,9 +28,8 @@ def prediction(test_loader,net):
     return correct / len(test_loader.dataset), all_predictions, all_target, all_features  # Derive ratio of correct predictions.
 
 
-def train(train_loader,test_loader, net , num_epochs, criterion, optimizer):
+def train(train_loader,test_loader, net , num_epochs, criterion, optimizer, device):
     model=net
-    device = 'cuda'
     wandb.watch(model, criterion, log = 'all', log_freq=10)
     for epoch in range(num_epochs):
         model.train()

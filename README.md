@@ -19,8 +19,8 @@ Python 3
 
 ## Dataset 
 We used two public datasets in this study:
-* [SU DB](https://purl.stanford.edu/bq914sc3730)_ [B.Kaneshiro et al., 2015]
-* [MPI DB]()
+* [SU DB](https://purl.stanford.edu/bq914sc3730) (Kaneshiro et al., 2015)
+* [MPI DB](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0014465) (Simanova et al., 2010)
 
 ## Citing
 When using this code in a scientific publication, please cite us as:

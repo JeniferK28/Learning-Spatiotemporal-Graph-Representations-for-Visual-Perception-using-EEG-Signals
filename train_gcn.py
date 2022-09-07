@@ -3,7 +3,7 @@ from torch.utils.tensorboard import SummaryWriter
 import wandb
 import numpy as np
 
-np.random.seed(seed=1)
+np.random.seed(seed=5827)
 writer = SummaryWriter()
 
 def prediction(test_loader,net):

@@ -10,12 +10,17 @@ results outperformed other conventional methods, with accuracies of 54.28 ± 7.8
 ## Requirements
 Python 3 
 
-* pytorch == 1.11.0
-* torch_geometric == 
+* pytorch == 1.10.2
+* torch_geometric 
 * numpy >= 1.17.5 
 * scipy >= 1.1.0 
 * scikit-learn >= 0.22.2
-* 
+* matplotlib
+
+## Dataset 
+We used two public datasets in this study:
+* [SU DB](https://purl.stanford.edu/bq914sc3730)_ [B.Kaneshiro et al., 2015]
+* [MPI DB]()
 
 ## Citing
 When using this code in a scientific publication, please cite us as:

@@ -31,7 +31,9 @@ We provide Python implementation for training the proposed model and its evaluat
 
 ## Some Results
 * t-SNE plots for a representative subject. (a) SU DB (Sub 06) and (b) MPI (Sub 15)
-![TSNE](t_sne.jpg)
+![TSNE](t_sne.jpg =250x250)
+<img src="t_sne.jpg =250x250" width=50% height=50%>
+
 
 ## Citing
 When using this code in a scientific publication, please cite us as:

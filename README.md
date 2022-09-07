@@ -29,6 +29,9 @@ We provide Python implementation for training the proposed model and its evaluat
 * plot_tsne : Graph tsne plots and dendograms
 * metrics: Evaluates the model using different metrics 
 
+## Some Results
+![TSNE](t_sne.jpg)
+
 ## Citing
 When using this code in a scientific publication, please cite us as:
 

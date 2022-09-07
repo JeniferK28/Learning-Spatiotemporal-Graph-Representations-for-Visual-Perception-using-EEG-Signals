@@ -30,6 +30,7 @@ We provide Python implementation for training the proposed model and its evaluat
 * metrics: Evaluates the model using different metrics 
 
 ## Some Results
+* t-SNE plots for a representative subject. (a) SU DB (Sub 06) and (b) MPI (Sub 15)
 ![TSNE](t_sne.jpg)
 
 ## Citing

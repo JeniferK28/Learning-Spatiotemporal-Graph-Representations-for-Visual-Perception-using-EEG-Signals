@@ -22,6 +22,13 @@ We used two public datasets in this study:
 * [SU DB](https://purl.stanford.edu/bq914sc3730) (Kaneshiro et al., 2015)
 * [MPI DB](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0014465) (Simanova et al., 2010)
 
+## Modules
+We provide Python implementation for training the proposed model and its evaluation.
+* model.py : Proposed model architecture 
+* train.py : Training the model and predicting labels
+* plot_tsne : Graph tsne plots and dendograms
+* metrics: Evaluates the model using different metrics 
+
 ## Citing
 When using this code in a scientific publication, please cite us as:
 

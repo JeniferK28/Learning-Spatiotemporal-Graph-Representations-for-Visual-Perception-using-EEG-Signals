@@ -1,7 +1,5 @@
 from sklearn.manifold import TSNE
-from time import time
 import numpy as np
-from sklearn.manifold import MDS
 from scipy.cluster.hierarchy import dendrogram
 from matplotlib import pyplot as plt
 from sklearn.manifold import SpectralEmbedding
@@ -9,7 +7,6 @@ from mpl_toolkits.mplot3d import Axes3D
 
 
 def tsne(x,y):
-    t0 = time()
     #TSNE
     pt= TSNE(n_components=2, verbose=1, perplexity=40, n_iter=300).fit_transform(x)
 

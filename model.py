@@ -1,8 +1,7 @@
 import torch
 import torch.nn.functional as F
 import torch.nn as nn
-from torch.nn import ELU,ReLU
-from torch_geometric.nn import GCNConv, Sequential, GraphConv
+from torch_geometric.nn import GraphConv
 from torch_geometric.nn import global_mean_pool
 
 class Net(torch.nn.Module):

@@ -13,7 +13,6 @@ def prediction(test_loader,net,device):
     all_target = torch.tensor([]).to(device, dtype=torch.long)
 
     model.eval()
-    device = 'cuda'
 
     correct = 0
     for data in test_loader:  # Iterate in batches over the training/test dataset.

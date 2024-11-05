@@ -45,4 +45,14 @@ python main_gcnn.py --dataset 'MPI'
 
 ## Citing
 When using this code in a scientific publication, please cite us as:
-
+```bibtex
+@article{kalafatovich2022learning,
+  title={Learning Spatiotemporal Graph Representations for Visual Perception Using EEG Signals},
+  author={Kalafatovich, Jenifer and Lee, Minji and Lee, Seong-Whan},
+  journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering},
+  volume={31},
+  pages={97--108},
+  year={2022},
+  publisher={IEEE}
+```
+}

@@ -51,8 +51,13 @@ if __name__ == '__main__':
 
     cv = StratifiedKFold(n_splits=args.folds, shuffle = True, random_state=seed)
     if args.dataset == 'MPI':
-        sub = ['Sub06','Sub07','Sub08','Sub10','Sub11','Sub12','Sub13','Sub15', 'Sub16','Sub17','Sub18','Sub19','Sub20','Sub21','Sub22','Sub23','Sub24','Sub25','Sub26','Sub27'  ]
-    else :    sub = ['S1','S2','S3','S4','S5','S6','S7','S8','S9', 'S10']
+        file_data = 'data/MPI'
+        sub = os.listdir(file_path)
+        # sub = ['Sub06','Sub07','Sub08','Sub10','Sub11','Sub12','Sub13','Sub15', 'Sub16','Sub17','Sub18','Sub19','Sub20','Sub21','Sub22','Sub23','Sub24','Sub25','Sub26','Sub27'  ]
+    else : 
+        file_data = 'data/SU'
+        sub = os.listdir(file_path)
+        #sub = ['S1','S2','S3','S4','S5','S6','S7','S8','S9', 'S10']
 
     # Preparing dataset
     for id in sub:

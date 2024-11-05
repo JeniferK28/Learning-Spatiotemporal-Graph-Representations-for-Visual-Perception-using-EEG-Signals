@@ -30,6 +30,14 @@ We provide Python implementation for training the proposed model and its evaluat
 * plot_tsne : Graph tsne plots and dendograms
 * metrics: Evaluates the model using different metrics 
 
+## Run
+Dataset files should be located in the folders data/MPI or data/SU
+
+```bash
+python main_gcnn.py --dataset 'MPI'
+```
+
+
 ## Some Results
 * t-SNE plots for a representative subject. (a) SU DB (Sub 06) and (b) MPI (Sub 15)
 <img src="t_sne.jpg" width=50% height=50%>
